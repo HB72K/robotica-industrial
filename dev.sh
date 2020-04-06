@@ -38,6 +38,7 @@ sudo apt update
 sudo apt install ros-melodic-desktop
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential -y
 sudo apt install ros-melodic-desktop-full -y
+sudo apt --fix-broken install -y
 fi
 fi
 read -rsp $'Pulse cualquier tecla para continuar...\n' -n 1 key
